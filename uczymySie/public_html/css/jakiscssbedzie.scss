@@ -1,0 +1,12 @@
+body {
+    background: blueviolet;
+    p {
+        color: beige;
+        &.inne {
+            color: brown;
+        }
+        span {
+            color: aquamarine;;
+        }  
+    }  
+}

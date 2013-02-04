@@ -1,0 +1,8 @@
+body {
+  background: blueviolet; }
+  body p {
+    color: beige; }
+    body p.inne {
+      color: brown; }
+    body p span {
+      color: aquamarine; }
