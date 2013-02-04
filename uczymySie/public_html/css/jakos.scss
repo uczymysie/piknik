@@ -1,0 +1,12 @@
+body {
+    background: #db0000;
+    p {
+        color:#00db00;
+        &.inne {
+            color:#0000db;
+        }
+        span {
+            color:#aba1ab;
+        }       
+    }
+}
