@@ -1,0 +1,40 @@
+body {
+  padding: 40px 0 0 0; }
+
+.box {
+  width: 940px;
+  padding: 0px 10px;
+  margin: 0 auto;
+  background: yellow;
+  overflow: hidden; }
+  .box .big {
+    width: 460px;
+    height: 460px;
+    background: green;
+    float: left;
+    margin: 0 20px 0 0; }
+    .box .big.last {
+      margin: 0px; }
+    .box .big .halfBig {
+      overflow: hidden; }
+      .box .big .halfBig.upBig {
+        margin: 0 0 20px 0; }
+      .box .big .halfBig .invisible {
+        width: 220px;
+        height: 220px;
+        margin: 0 20px 0 0;
+        float: left;
+        display: table; }
+        .box .big .halfBig .invisible.last {
+          margin: 0px; }
+        .box .big .halfBig .invisible .tableCell {
+          display: table-cell; }
+          .box .big .halfBig .invisible .tableCell.bottom {
+            vertical-align: bottom; }
+          .box .big .halfBig .invisible .tableCell.middle {
+            vertical-align: middle; }
+        .box .big .halfBig .invisible .up {
+          width: 80px;
+          height: 80px;
+          margin: 0 auto;
+          background: red; }

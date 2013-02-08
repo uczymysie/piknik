@@ -1,0 +1,58 @@
+body{
+    padding: 40px 0 0 0 ;
+}
+.box{
+    width: 940px;
+    padding: 0px 10px;
+    margin: 0 auto;
+    background: yellow;
+    overflow: hidden;
+    
+    .big{
+        width: 460px;
+        height: 460px;
+        background: green;
+        float: left;
+        margin: 0 20px 0 0;
+        &.last{
+            margin: 0px;
+        }
+        .halfBig{
+            overflow: hidden;
+            
+            &.upBig{
+                margin: 0 0 20px 0;               
+            }
+            .invisible{
+                width: 220px;
+                height: 220px;
+                margin: 0 20px 0 0;
+                float: left;
+                display: table;
+                &.last{
+                    margin: 0px;
+                }
+                .tableCell{
+                    display: table-cell;
+                    &.bottom{
+                        vertical-align: bottom;
+                    }
+                    &.middle{
+                        vertical-align: middle;
+                    }
+                }
+                
+                
+                .up{
+                    width: 80px;
+                    height: 80px;
+                    margin: 0 auto;
+                    background: red;
+                    
+                }
+                
+                
+            }
+        }
+    }
+}
